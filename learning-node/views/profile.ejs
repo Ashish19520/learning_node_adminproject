@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile page</title>
+</head>
+<body>
+    <h1>jay hanuman ji</h1>
+    <p>welcome <%=user.name%></p>
+    <p>welcome <%=user.class%></p>
+    <p>welcome <%=user.school%></p>
+    <ul>
+        <% user.skills.forEach((item)=>{ %>
+              <li><%=item%></li>
+        <%})%>
+        <ul>
+</body>
+</html>
