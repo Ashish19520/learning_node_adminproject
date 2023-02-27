@@ -1,0 +1,72 @@
+.App {
+  text-align: center;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding-left:20px;
+}
+
+li a{
+  color: red;
+    text-decoration: none;
+    padding:20px;
+    margin:10px;
+}
+ li a:hover {
+  color:yellow;
+}
+.nav-ul ul{
+  padding: 5px;
+  margin:0;
+    text-decoration: none;
+    background-color: black;
+    padding-left:250px;
+}
+.footer{
+      text-align: center;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        color: red;
+}
+.input-field{
+      display: block;
+        margin: 5px;
+        margin-left: 30%;
+        padding:7px;
+        border:1px solid red;
+        width:300px;}
+
+.btn{
+  background-color: black;
+  color:red;
+  margin-left:35%;
+  width:auto;
+  padding:5px;
+}
+.btn:hover{
+  color:yellow;
+}
+
+.signup{
+  margin-top: 12%;
+  margin-left: 12%;
+}
+.right{
+  text-align: right;
+}
+.error{
+  color: red;
+  margin-left: 30%;
+  margin-top: 0%;
+}
+.tabledesign{
+    margin-top: 2%;
+    background-color: wheat;
+    margin-left: 2%;
+    margin-right: 4%;
+    box-shadow: 10px 10px burlywood;
+}
